@@ -1,25 +1,25 @@
 - name: Syllabus
-  link: /syllabus/
+  link: /syllabus
   new_window: false
   highlight: true
 - name: Assignments
-  link: /assignments/
+  link: /assignments
   new_window: false
   highlight: false
 - name: Office Hours
-  link: /office-hours/
+  link: /office-hours
   new_window: false
   highlight: false
 - name: Staff
-  link: /staff/
+  link: /staff
   new_window: false
   highlight: false
 - name: Piazza
-  link: /piazza/
+  link: /piazza
   new_window: false
   highlight: false
 - name: Grades
-  link: /grades/
+  link: /grades
   new_window: false
   highlight: false
 - name: Coursebook
