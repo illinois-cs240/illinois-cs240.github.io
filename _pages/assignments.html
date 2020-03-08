@@ -1,0 +1,62 @@
+---
+title: Assignments
+description: Machine Problems
+---
+<section class="text-container">
+    <div class="text-container">
+        <p class="editable">
+            <a href="{{ site.data.constants.broadway_on_demand_link }}" class="btn btn-success" role="button">Broadway
+                On-Demand Autograder</a>
+        </p>
+        {% for mp in site.data.assignments['mps'] %}
+        {% if mp.name == "Malloc" and mp.visible %}
+        <p class="editable">
+            <a href="{{ site.data.constants.malloc_contest_link }}" class="btn btn-warning" role="button">Malloc
+                Contest</a>
+        </p>
+        {% break %}
+        {% endif %}
+        {% endfor %}
+        
+        <table class="container">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Release Date</th>
+                    <th>Due Date</th>
+                    <th>Slides</th>
+                    <th>Handout</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for mp in site.data.assignments %}
+                <tr>
+                    <th><a href="/assignments/{{mp.url}}.html">
+                            <p class="editable">{{mp.name}}</p>
+                        </a></th>
+                    <td>{{mp.releaseDate}}</td>
+                    <td>{{mp.dueDate}}</td>
+                    {% if mp.resources %}
+                    {% if mp.slides %}
+                    <td>
+                        <a href="/slides/{{mp.url}}.html"><img src="./images/lab-icons/animation.png" alt='Slides'></a>
+                    </td>
+                    {% else %}
+                    <td></td>
+                    {% endif %}
+
+                    {% if mp.worksheet %}
+                    <td>
+                        <a href="{{ site.baseurl }}/resources/handouts/{{mp.url}}.pdf"><img
+                                src="./images/lab-icons/file-document.png" alt='Handout'></a>
+                    </td>
+                    {% else %}
+                    <td></td>
+                    {% endif %}
+                    {% endif %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>

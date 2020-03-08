@@ -1,0 +1,113 @@
+.flexbox-item div.staff-image {
+    width: 18vh;
+    height: 18vh;
+    overflow: hidden;
+    background-size: cover;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.flexbox-item:hover div.staff-image {
+    box-shadow:0 4px 12px 0 var(--color-translucent), 0 6px 20px 0 var(--color-translucent);
+}
+
+.staff-name {
+    bottom: 0px;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 2vh;
+    color: var(--color-secondary-emphasis);
+}
+
+.heading {
+    text-align: center;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 3em;
+    padding: 1em;
+    padding: 0;
+}
+
+.card-body {
+    padding: 5vh;
+    display: block;
+}
+
+section.flexbox {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 90vw;
+}
+
+.flexbox-item {
+    display: inline-block;
+    padding: 2vh;
+    margin: 2vh;
+}
+
+img.logo {
+    width: 2vw;
+    height: 3vw;
+    margin: 2vh;
+}
+
+@media (max-width: 480px) {
+    .flexbox-item div.staff-image {
+        width: 18vh;
+        height: 18vh;
+    }
+    img.logo {
+        width: 10vw;
+        height: 8vh;
+    }
+    .staff-name {
+        font-size: 0.75em;
+    }
+}
+
+.infrastructure-links {
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.staff-container {
+    margin: 2vh;
+}
+
+.staff-container div.staff-image {
+    width: 20vh;
+    height: 20vh;
+    overflow: hidden;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.staff-container:hover div.staff-image {
+    box-shadow:0 4px 12px 0 var(--color-translucent), 0 6px 20px 0 var(--color-translucent);
+}
+
+.staff-name {
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 1vh;
+    color: var(--color-emphasis);
+}
+
+.latest-assignment {
+    background-color: rgba(16, 213, 147, 0.85);
+}
+
+.latest-assignments section.flexbox-item {
+    border-radius: 4%;
+}

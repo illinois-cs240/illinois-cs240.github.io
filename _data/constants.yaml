@@ -1,0 +1,20 @@
+# Settings for the course
+# semester is generated automagically
+course_number: "240"
+department_code: "cs"
+course_name: "Introduction to Computer Systems"
+
+# Class info
+semester: sp20
+semester_full: Spring 2020
+instructors: Mahesh Viswanathan (vmahesh@illinois.edu), Lawrence Angrave (angrave@illinois.edu), and Geoffrey Herman (glherman@illinois.edu)
+# location: DCL 1320
+# timings: MWF 10:00am-10:50am, 11:00am-11:50am
+
+# Infrastructure links
+grade_viewer_link: "https://sp20-cs240-grd-01.cs.illinois.edu/grades"
+broadway_on_demand_link: "https://sp20-cs240-grd-01.cs.illinois.edu/on-demand/"
+malloc_contest_link: "https://sp20-cs240-grd-01.cs.illinois.edu/malloc/"
+piazza_link: "https://piazza.com/illinois/spring2020/cs240/"
+
+lecture_videos_link: "https://classtranscribe.illinois.edu/"
