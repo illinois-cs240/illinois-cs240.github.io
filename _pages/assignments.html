@@ -17,7 +17,7 @@ description: Machine Problems
         {% break %}
         {% endif %}
         {% endfor %}
-        
+
         <table class="container">
             <thead>
                 <tr>
@@ -30,6 +30,7 @@ description: Machine Problems
             </thead>
             <tbody>
                 {% for mp in site.data.assignments %}
+                {% if mp.visible %}
                 <tr>
                     <th><a href="/assignments/{{mp.url}}.html">
                             <p class="editable">{{mp.name}}</p>
@@ -55,6 +56,7 @@ description: Machine Problems
                     {% endif %}
                     {% endif %}
                 </tr>
+                {% endif %}
                 {% endfor %}
             </tbody>
         </table>
