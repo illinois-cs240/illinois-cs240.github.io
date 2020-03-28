@@ -1,7 +1,7 @@
   -
       name: "Luscious Locks"
       releaseDate: "Week 8"
-      dueDate: "Week 9"
+      dueDate: "Week 10"
       url: "luscious_locks"
       submissions:
         - title: HW0
@@ -18,18 +18,18 @@
       slides: true
   -
       name: "Perilous Pointers"
-      releaseDate: "Week 9"
-      dueDate: "Week 10"
+      releaseDate: "Week 10"
+      dueDate: "Week 11"
       url: "perilous_pointers"
       submissions:
         - title: Entire Assignment
-          due_date: 2020-03-30 23:59
+          due_date: 2020-04-06 23:59
           graded_files:
           - part1-functions.c
           - part2-main.c
       resources: true
       worksheet: true
-      visible: false
+      visible: true
       slides: true
   -
       name: "Vector"
