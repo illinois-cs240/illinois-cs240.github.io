@@ -38,13 +38,13 @@
       url: "vector"
       submissions:
         - title: Entire Assignment
-          due_date: 2020-04-06 23:59
+          due_date: 2020-04-13 23:59
           graded_files:
           - vector.c
           - sstring.c
       resources: true
       worksheet: false
-      visible: false
+      visible: true
   -
       name: "Utilities Unleashed"
       releaseDate: "Week 12"
