@@ -1,5 +1,6 @@
 ---
 title: "Password Cracker"
+layout: doc
 learning_objectives:
   - Multithreaded programming and its performance gains
   - Using a thread-safe datastructure

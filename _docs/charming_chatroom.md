@@ -1,5 +1,6 @@
 ---
 title: "Charming Chatroom"
+layout: doc
 ---
 
 ## Learning Objectives

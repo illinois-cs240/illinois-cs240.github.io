@@ -1,5 +1,6 @@
 ---
 title: "Perilous Pointers"
+layout: doc
 learning_objectives:
   - Pointers
   - Strings

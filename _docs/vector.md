@@ -1,5 +1,6 @@
 ---
 title: "Vector"
+layout: doc
 learning_objectives:
   - Implementing a C++ style Vector in C
   - Using Dynamic/Heap Memory

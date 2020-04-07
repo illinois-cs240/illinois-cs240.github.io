@@ -1,5 +1,6 @@
 ---
 title: "Shell"
+layout: doc
 learning_objectives:
   - Learning How a Shell Works
   - Fork, Exec, Wait

@@ -1,5 +1,6 @@
 ---
 title: "Teaching Threads"
+layout: doc
 learning_objectives:
   - Introduction to pthreads
   - Introduction to concurrency

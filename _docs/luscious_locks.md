@@ -1,5 +1,6 @@
 ---
 title: "Luscious Locks"
+layout: doc
 learning_objectives:
   - Getting familiar with GDB and system programming.
 wikibook:

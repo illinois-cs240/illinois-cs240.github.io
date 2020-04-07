@@ -1,5 +1,6 @@
 ---
 title: "Extreme Edge Cases"
+layout: doc
 learning_objectives:
   - Test Driven Development
   - Thinking of Edge Cases
