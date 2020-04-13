@@ -52,13 +52,13 @@
       url: "utilities_unleashed"
       submissions:
         - title: Entire Assignment
-          due_date: 2020-04-13 23:59
+          due_date: 2020-04-20 23:59
           graded_files:
           - env.c
           - time.c
       resources: true
       worksheet: true
-      visible: false
+      visible: true
       slides: true
   -
       name: "Shell"
