@@ -66,7 +66,7 @@
       dueDate: "Week 14"
       url: "shell"
       submissions:
-        - title: Part 1
+        - title: Entire Assignment
           due_date: 2020-04-27 23:59
           graded_files:
           - shell.c
