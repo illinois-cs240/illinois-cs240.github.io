@@ -75,17 +75,17 @@
       visible: true
   -
       name: "Teaching Threads"
-      releaseDate: "Week 13"
-      dueDate: "Week 14"
+      releaseDate: "Week 14"
+      dueDate: "Week 15"
       url: "teaching_threads"
       submissions:
         - title: Entire Assignment
-          due_date: 2020-04-27 23:59
+          due_date: 2020-05-04 23:59
           graded_files:
           - par_reduce.c
       resources: true
       worksheet: true
-      visible: false
+      visible: true
       slides: true
   - 
       name: "Charming Chatroom"
