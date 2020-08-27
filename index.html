@@ -1,58 +1,15 @@
 ---
+layout: none
 title: Home
 description: Introduction to Computer Systems
 ---
-<section class="hero">
-	<div class="text-container">
-		<h1 class="editable"><strong>Illinois CS 240</strong></h1>
-		<p class="subtext editable">{{ site.data.constants.course_name }}</p>
-		<p class="subtext editable">{{ site.data.constants.semester_full }}</p>
-	</div>
-</section>
-<section class="hero-secondary-2">
-		<section class="text-container">
-			<p class="editable"><strong>Current Assignment</strong></p>
-			<div class="card-body latest-assignment">
-				{% assign latest_assignment = nil %}
-				{% for element in site.data.assignments %}
-				{% if element.visible %}
-				{% assign latest_assignment = element %}
-				{% endif %}
-				{% endfor %}
-				{% if latest_assignment %}
-				<h1 class="editable">{{latest_assignment.name}}</h1>
-				<div class="cta button alt">
-					<a href="/assignments/{{ latest_assignment.url }}">Documentation</a>
-					<a href="https://github-dev.cs.illinois.edu/cs240-sp20/_release">Starter Code</a>
-				</div>
-				<p>
-					Due: {{latest_assignment.dueDate}} · {{ latest_assignment.submissions[0].due_date }}
-				</p>
-				{% else %}
-				<h3>
-					Come back later!
-				</h3>
-				{% endif %}
-			</div>
-		</section>
-	</section>
-<section class="hero-secondary-1">
-	<section class="text-container">
-		<div class="text-container">
-			<p class="subtext editable"><strong>Instructors</strong></p>
-			<p class="subtext editable">{{ site.data.constants.instructors }} </p>
-		</div>
-		<div class="text-container">
-			<p class="subtext editable"><strong>Course Description</strong></p>
-			<p class="subtext editable">
-				This course is designed to challenge you as a programmer and new computer scientist at the University of Illinois at Urbana-Champaign. Rather than the sand-boxed, contained, and simple problems of your previous courses that used significant scaffolding and pre-built libraries, you will be interacting with a much more complex environment: the entire system and even computing networks.
-				
-				You will also need to know how input and output can be optionally buffered between processes and files.
-				
-				In short, it is time to remove the training wheels off and instead fling open the doors, welcoming you to the big, wide world of computing.
-				
-				Oh, and did we mention the challenge of parallelism, so that your program can take advantage of the multi-core CPU inside each machine?
-			</p>
-		</div>
-	</section>
-</section>
+
+<html>
+	<head>
+		<title>CS 240</title>
+		<meta http-equiv="refresh" content="0; URL=https://courses.engr.illinois.edu/cs240/" />
+	</head>
+	<body>
+		<a href="https://courses.engr.illinois.edu/cs240/">Continue to the CS 240 site &rarr;</a>
+	</body>
+</html>
