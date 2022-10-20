@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll', '4.0.0'
-gem 'nokogiri', '~> 1.10'
+gem 'nokogiri', '~> 1.13'
 
 group :jekyll_plugins do
   gem 'jekyll-archives', '2.1.1'
